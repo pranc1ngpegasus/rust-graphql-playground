@@ -31,6 +31,9 @@
             ++ additionalFhameworks;
 
           env = {
+            DATABASE_URL = "postgresql://postgres:password@localhost:5432/default";
+            WRITER_DATABASE_URL = "postgresql://postgres:password@localhost:5432/default";
+            READER_DATABASE_URL = "postgresql://postgres:password@localhost:5432/default";
           };
 
           nativeBuildInputs = [toolchain];

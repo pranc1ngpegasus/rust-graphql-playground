@@ -1,0 +1,13 @@
+[package]
+authors.workspace = true
+edition.workspace = true
+name = "repository"
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+entity.workspace = true
+sqlx.features = ["chrono", "postgres", "runtime-tokio", "tls-rustls", "uuid"]
+sqlx.workspace = true
+derive-new.workspace = true
+uuid.workspace = true
