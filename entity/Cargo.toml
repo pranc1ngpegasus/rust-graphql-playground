@@ -1,0 +1,16 @@
+[package]
+name = "entity"
+authors.workspace = true
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+async-graphql.features = ["uuid", "chrono"]
+async-graphql.workspace = true
+chrono.features = ["serde"]
+chrono.workspace = true
+derive-getters.workspace = true
+derive-new.workspace = true
+uuid.features = ["fast-rng", "v7"]
+uuid.workspace = true
