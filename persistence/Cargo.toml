@@ -1,0 +1,11 @@
+[package]
+name = "persistence"
+authors.workspace = true
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+sqlx.features = ["postgres", "runtime-tokio", "tls-rustls"]
+sqlx.workspace = true
+tracing.workspace = true
