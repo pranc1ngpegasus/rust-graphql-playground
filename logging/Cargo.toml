@@ -1,0 +1,10 @@
+[package]
+name = "logging"
+authors.workspace = true
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+tracing-subscriber.features = ["env-filter", "json", "registry"]
+tracing-subscriber.workspace = true
