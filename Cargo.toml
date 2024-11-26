@@ -1,0 +1,20 @@
+[package]
+edition.workspace = true
+name = "rust-graphql-playground"
+version.workspace = true
+
+[dependencies]
+
+[workspace]
+members = []
+resolver = "2"
+
+[workspace.dependencies]
+
+[workspace.package]
+authors = ["pranc1ngpegasus"]
+edition = "2021"
+version = "0.1.0"
+
+[workspace.metadata.lints.clippy]
+all = "warn"
