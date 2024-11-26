@@ -13,7 +13,7 @@ serde.features = ["derive"]
 serde.workspace = true
 
 [workspace]
-members = ["entity", "logging", "persistence"]
+members = ["entity", "logging", "persistence", "resolver"]
 resolver = "2"
 
 [workspace.dependencies]
@@ -27,6 +27,7 @@ entity.path = "entity"
 envy = "0.4.2"
 logging.path = "logging"
 persistence.path = "persistence"
+resolver.path = "resolver"
 serde = "1.0.215"
 sqlx = "0.8.2"
 tokio = "1.41.1"

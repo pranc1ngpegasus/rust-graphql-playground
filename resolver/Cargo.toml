@@ -1,0 +1,10 @@
+[package]
+authors.workspace = true
+edition.workspace = true
+name = "resolver"
+version.workspace = true
+
+[dependencies]
+async-graphql.workspace = true
+async-graphql.features = ["chrono"]
+entity.workspace = true
